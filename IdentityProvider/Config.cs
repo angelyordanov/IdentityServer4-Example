@@ -39,7 +39,9 @@ namespace IdentityProvider
                     },
 
                     RequirePkce = true,
-                    AllowPlainTextPkce = false
+                    AllowPlainTextPkce = false,
+                    AllowOfflineAccess = true,
+                    AccessTokenLifetime = 5 * 60,
                 }
             };
         }
